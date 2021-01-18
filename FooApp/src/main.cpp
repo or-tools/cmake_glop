@@ -1,8 +1,9 @@
 #include <iostream>
-#include <ortools/glop/glop.h>
+#include <foo/Foo.hpp>
 
 int main(int argc, char** argv) {
-	std::cout << "hello" << std::endl;
-	return 0;
+  std::cout << "hello" << std::endl;
+  foo::helloWorld;
+  return 0;
 }
 
