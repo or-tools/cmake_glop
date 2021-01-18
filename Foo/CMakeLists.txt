@@ -4,7 +4,7 @@ file(GLOB _SRCS "src/*.[hc]pp")
 add_library(Foo "")
 target_sources(Foo PRIVATE ${_HDRS} ${_SRCS})
 target_include_directories(Foo PUBLIC
-	$<BUILD_INTERFACE:include>
+	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 	$<INSTALL_INTERFACE:include>
 	)
 target_compile_features(Foo PUBLIC cxx_std_11)
