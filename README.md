@@ -16,7 +16,7 @@
 Modern CMake C++ template project using Google's Glop solver
 
 ## License
-Apache 2. See the LICENSE file for details.
+Apache 2. See the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 This is not an official Google product, it is just code that happens to be
