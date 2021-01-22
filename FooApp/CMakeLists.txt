@@ -16,5 +16,4 @@ endif()
 # Install
 install(TARGETS FooApp
   EXPORT ${PROJECT_NAME}Targets
-  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
   )
