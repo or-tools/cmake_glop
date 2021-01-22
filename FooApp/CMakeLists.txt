@@ -10,7 +10,7 @@ add_executable(${PROJECT_NAMESPACE}::FooApp ALIAS FooApp)
 
 # Test
 if(BUILD_TESTING)
-  add_test(NAME FooApp_UT COMMAND FooApp)
+  add_test(NAME cxx_FooApp COMMAND FooApp)
 endif()
 
 # Install
