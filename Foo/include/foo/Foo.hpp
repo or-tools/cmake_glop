@@ -1,11 +1,10 @@
 #pragma once
 
 namespace foo {
-	void helloWorld();
+void helloWorld();
 
-	class Foo {
-		public:
-			void operator()() const;
-	};
-}
-
+class Foo {
+ public:
+  void operator()() const;
+};
+}  // namespace foo
